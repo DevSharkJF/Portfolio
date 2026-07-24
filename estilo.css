@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
+
+:root{
+    --cor-um: blue;
+    --cor-dois: black;
+    --cor-tres: white;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: black;
+    color: var(--cor-tres);
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100vh;
+}
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-image: url(/Image/fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho_link{
+    font-family: var(--cor-dois);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-tres);
+    text-decoration: none;
+}
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82;
+}
+.conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.conteudo_texto{
+    font-size: 1.2rem;
+    font-family: var(--cor-dois);
+    text-align: center;
+    font-weight: 500;
+    color: var(--cor-tres);
+}
