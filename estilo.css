@@ -73,3 +73,38 @@ body::before{
     font-weight: 500;
     color: var(--cor-tres);
 }
+
+.links{
+    background-color: var(--cor-dois);
+}
+
+.imagem{
+    border: 1px dashed var(--cor-um)
+}
+
+.rodape{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: var(--cor-tres);
+    background-color: var(--cor-um);
+    padding: 15px;
+    text-align: center;
+    font-family: var(--cor-dois);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.conteudo_sobre{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.conteudo_texto_sobre{
+    font-size: 1rem;
+    font-family: var(--cor-dois);
+    text-align: left;
+    font-weight: 500;
+    color: var(--cor-um);
+}
