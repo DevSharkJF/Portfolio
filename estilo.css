@@ -38,6 +38,11 @@ body::before{
     z-index: -1;
 }
 
+.conteudo>h1, h2{
+    font-family: var(--fonte-primaria);
+    color: rgb(0, 217, 255);
+}
+
 .cabecalho{
     padding: 2% 0% 0% 15%;
 }
@@ -67,7 +72,7 @@ body::before{
     gap: 35px;
 }
 .conteudo_texto{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: var(--fonte-primaria);
     text-align: center;
     font-weight: 500;
@@ -75,7 +80,7 @@ body::before{
 }
 
 .links{
-    background-color: var(--cor-dois);
+    background-color: red;
 }
 
 .imagem{
