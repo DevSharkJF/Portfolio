@@ -88,21 +88,42 @@ h2{
     position: relative;
     background-color: white;
     bottom: 30px;
+    width: 14.5rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around; /* distribui os links igualmente */
+    padding: 5px;
 }
 .links_imagens{
-    width: 400px;
+    width: 100px;
     color: rgb(0, 217, 255);
-    border-width: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    text-decoration: none;
+    border: none;
 }
+
 .foto{
     width: 30px;
 }
-
 .imagem{
     border: 1px dashed var(--cor-um);
     max-width: 50%;
     position: relative;
-    left: 25px;
+    left: 100px;
+}
+
+.linkedin{
+    padding-top: 0;
+    text-align: center;
+}
+.git{
+    padding-top: 0;
+    text-align: center;
 }
 
 .rodape{
