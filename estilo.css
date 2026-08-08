@@ -38,8 +38,13 @@ body::before{
     z-index: -1;
 }
 
-.conteudo>h1, h2{
+.conteudo>h1{
     font-family: var(--fonte-primaria);
+    color: rgb(0, 217, 255);
+}
+h2{
+    font-family: var(--fonte-primaria);
+    font-size: 1rem;
     color: rgb(0, 217, 255);
 }
 
@@ -80,12 +85,24 @@ body::before{
 }
 
 .links{
-    background-color: red;
+    position: relative;
+    background-color: white;
+    bottom: 30px;
+}
+.links_imagens{
+    width: 400px;
+    color: rgb(0, 217, 255);
+    border-width: 10px;
+}
+.foto{
+    width: 30px;
 }
 
 .imagem{
     border: 1px dashed var(--cor-um);
     max-width: 50%;
+    position: relative;
+    left: 25px;
 }
 
 .rodape{
